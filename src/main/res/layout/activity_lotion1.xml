@@ -12,9 +12,10 @@
         android:background="#ffffff" >
 
         <ImageView
+            android:layout_centerInParent="true"
             android:id="@+id/lotion1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:src="@drawable/lotion" />
     </RelativeLayout>
 
@@ -22,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text = "Rose Petal Cream \n The Face Shop \n $19.99"
+        android:text = "Citrus Bright Cream \n The Face Shop \n $19.99"
         android:textAlignment="center"
         android:textSize = "35sp"
         android:background="#ffffff"
